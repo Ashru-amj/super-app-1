@@ -1,0 +1,15 @@
+.image{
+    background: url('./../LeftSide/image/left.png');
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100vh;
+
+}
+.image h2 a{
+    font-size: 3rem;
+    color: white;
+    text-underline-offset: none;
+}
