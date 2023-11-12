@@ -14,7 +14,7 @@ export default function Browser() {
   const [action, setAction] = useState()
 
   const toggleHome = ()=>{
-    navigate('/home')
+    navigate('/super-app-1/home')
   }
 
   useEffect(() => {
