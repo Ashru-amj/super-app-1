@@ -10,10 +10,10 @@ function App() {
    <>
    <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Registration/>} />
-      <Route path="/category" element={<CategoryMain/>} />
-      <Route path="/home" element={<Home/>}/>
-      <Route path="/browse" element={<Browser/>}/>
+      <Route path="/super-app-1/" element={<Registration/>} />
+      <Route path="/super-app-1/category" element={<CategoryMain/>} />
+      <Route path="/super-app-1/home" element={<Home/>}/>
+      <Route path="/super-app-1/browse" element={<Browser/>}/>
     </Routes>
    </BrowserRouter>
    </>
