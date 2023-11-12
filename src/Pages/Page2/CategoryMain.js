@@ -56,7 +56,7 @@ const CategoryMain = () => {
             return
         }
         localStorage.setItem('selectedCategory', JSON.stringify(selectedCategoty))
-        navigate('/home');
+        navigate('/super-app-1/home');
 
     }
 
