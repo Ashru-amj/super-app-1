@@ -36,7 +36,7 @@ const RightSide = () => {
     }
     setError('false');
     localStorage.setItem('userDetail', JSON.stringify(inputs));
-    navigate('/category');
+    navigate('/super-app-1/category');
   }
 
   const inputList = [
