@@ -14,7 +14,7 @@ export default function Home() {
   const [time, setTime] = useState('')
 
   const toggleBrowse = ()=>{
-    navigate('/browse');
+    navigate('/super-app-1/browse');
   }
 
   useEffect(() => {
